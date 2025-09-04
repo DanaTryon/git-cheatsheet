@@ -17,4 +17,6 @@ git remote add origin <URL>	Connects your local repository to a remote one (usua
 				remote.
 git push origin			Pushes your committed changes to the remote repository named
 				“origin.”  You’ll usually specify a branch.
+git push origin main		Sends your local `main` branch commits to the `main` branch on the
+				remote repository named “origin.”
 
