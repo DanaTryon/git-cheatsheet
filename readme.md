@@ -15,4 +15,6 @@ git commit -m "message"		Records a snapshot of staged changes in the repository 
 git remote add origin <URL>	Connects your local repository to a remote one (usually on GitHub)
 				using the provided URL.  “origin” is the default name for that
 				remote.
- 
+git push origin			Pushes your committed changes to the remote repository named
+				“origin.”  You’ll usually specify a branch.
+
