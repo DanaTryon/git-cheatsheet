@@ -19,4 +19,6 @@ git push origin			Pushes your committed changes to the remote repository named
 				“origin.”  You’ll usually specify a branch.
 git push origin main		Sends your local `main` branch commits to the `main` branch on the
 				remote repository named “origin.”
+git clone <URL>			Creates a local copy of a remote repository using its URL. Useful
+				for downloading existing projects to your machine.
 
