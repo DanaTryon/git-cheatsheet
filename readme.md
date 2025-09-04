@@ -23,4 +23,6 @@ git clone <URL>			Creates a local copy of a remote repository using its URL. Use
 				for downloading existing projects to your machine.
 git pull			Fetches and merges changes from the remote repository into your
 				current branch. Keeps your local repo up to date.
+git branch			Lists all branches in your repository. You can also use `git branch
+				<name>` to create a new branch.
 
