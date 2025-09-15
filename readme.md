@@ -1,28 +1,47 @@
-Git/Linux commands		Function
-ls				lists the files in the present working directory
-cd				changes directory
-mkdir				creates a new dirctory
-pwd				tells you where you are, present working directory
-touch				creates an empty file
-git init			Initializes a new Git repository in your current directory.
-				Creates a `.git` folder to start tracking version history.
-git status			Displays the current state of your working directory and staging 
-				area.  Shows which files are modified, staged, or untracked.
-git add <filename>		Stages changes to a specific file so they’re ready to be committed.
-				Use `git add .` to stage all changes.
-git commit -m "message"		Records a snapshot of staged changes in the repository with a 
-				message describing the update.
-git remote add origin <URL>	Connects your local repository to a remote one (usually on GitHub)
-				using the provided URL.  “origin” is the default name for that
-				remote.
-git push origin			Pushes your committed changes to the remote repository named
-				“origin.”  You’ll usually specify a branch.
-git push origin main		Sends your local `main` branch commits to the `main` branch on the
-				remote repository named “origin.”
-git clone <URL>			Creates a local copy of a remote repository using its URL. Useful
-				for downloading existing projects to your machine.
-git pull			Fetches and merges changes from the remote repository into your
-				current branch. Keeps your local repo up to date.
-git branch			Lists all branches in your repository. You can also use `git branch
-				<name>` to create a new branch.
+# Git & Linux Commands Cheat Sheet
+
+A quick reference guide for essential Git and Linux commands used in software development and version control.
+
+---
+
+## Linux Commands
+
+| Command | Description |
+|--------|-------------|
+| `ls` | Lists the files in the present working directory |
+| `cd` | Changes directory |
+| `mkdir` | Creates a new directory |
+| `pwd` | Prints the present working directory |
+| `touch` | Creates an empty file |
+
+---
+
+## Git Commands
+
+| Command | Description |
+|--------|-------------|
+| `git init` | Initializes a new Git repository in your current directory |
+| `git status` | Displays the current state of your working directory and staging area |
+| `git add <file>` | Stages changes to a specific file |
+| `git add .` | Stages all changes in the directory |
+| `git commit -m "message"` | Records a snapshot of staged changes with a message |
+| `git remote add origin <url>` | Connects your local repo to a remote one named “origin” |
+| `git push origin <branch>` | Pushes commits to the specified branch on the remote |
+| `git push origin main` | Pushes commits to the `main` branch on the remote |
+| `git clone <url>` | Creates a local copy of a remote repository |
+| `git pull` | Fetches and merges changes from the remote repository |
+| `git branch` | Lists all branches in your repository |
+| `git branch <name>` | Creates a new branch with the given name |
+
+---
+
+## Notes
+
+- Use `git status` frequently to keep track of your changes.
+- Always write meaningful commit messages.
+- Use branches to isolate features or fixes before merging into `main`.
+
+---
+
+
 
